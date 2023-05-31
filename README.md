@@ -17,3 +17,5 @@ redis                latest    116cad43b6af   4 weeks ago      117MB
 - go编译文件需要特定的docker image来进行编译，要不然将本地编译好的文件制作成镜像会遇到` no such file or directory`的错误
 
 综上，如果不能很简洁地将本地编译好的文件制作成docker的image并运行，而是依赖特定的docker环境进行编译运行，那么docker的使用有和意义。跟一般的运维将本地代码上传到生产服务器编译运行有什么区别。这是一点docker image制作过后一点点想法。
+
+[制作docker image过程中遇到的问题和解决方法](https://docs.qq.com/doc/DRm9XbEhDUkN5bUZr)
